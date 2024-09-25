@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+header{
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+    outline: black solid 10px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    margin: 0px;
+}
+
+a{
+    color: white;
+}
+
+header > nav{
+    text-align: center;
+}
+
+main > p{
+    min-width: 36px;
+    max-width: 350px;
+
+    line-height: 1.5;
+
+    font-weight: bold;
+    font-size: 2em;
+
+    margin-bottom: 0px;
+}
+
+
+
+article{
+    height: 95vh;
+    min-width: 36px;
+    max-width: 200%;
+}
+
+article > p{
+    
+    color: white;
+
+    padding: 20px;
+    padding-top: 70px;
+
+
+    min-width: 36px;
+    max-width: 350px;
+
+    line-height: 1.5;
+
+    font-weight: bold;
+    font-size: 2em;
+}
+
+p{
+    padding-left: 10px;
+}
+
+article#quadro{
+    background-image: url(background001.jpg);
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: cover;
+}
+
+p#espaço{
+    border-radius: 40px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
